@@ -5,7 +5,7 @@ metadata:
     app: kn-spring-app
   name: kn-spring-app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: kn-spring-app
@@ -15,5 +15,5 @@ spec:
         app: kn-spring-app
     spec:
       containers:
-      - image: mypractice96/kn-spring-app:1.0.1
+      - image: mypractice96/kn-spring-app:1.0.2
         name: kn-spring-app
