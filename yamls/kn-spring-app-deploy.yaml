@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: kn-spring-app
+  name: kn-spring-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kn-spring-app
+  template:
+    metadata:
+      labels:
+        app: kn-spring-app
+    spec:
+      containers:
+      - image: mypractice96/kn-spring-app:1.0.1
+        name: kn-spring-app
