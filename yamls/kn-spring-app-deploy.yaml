@@ -5,7 +5,7 @@ metadata:
     app: kn-spring-app
   name: kn-spring-app
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: kn-spring-app
