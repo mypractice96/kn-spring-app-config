@@ -15,5 +15,5 @@ spec:
         app: kn-spring-app
     spec:
       containers:
-      - image: mypractice96/kn-spring-app:1.0.2
+      - image: mypractice96/kn-spring-app:1.0.1
         name: kn-spring-app
